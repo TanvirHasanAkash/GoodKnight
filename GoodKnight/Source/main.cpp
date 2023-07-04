@@ -1,6 +1,7 @@
-#include <iostream>
+#include "Console/Printer.hpp"
 
 int main()
 {
-	std::cout << "Hello, chess world!" << std::endl;
+	const Board board;
+	Printer::PrintBoard(board);
 }
